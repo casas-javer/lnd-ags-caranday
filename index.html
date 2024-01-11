@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 
 <html lang="es-MX">
@@ -5,6 +6,15 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KSN5XDK4');</script>
+<!-- End Google Tag Manager -->
 
 
     <!-- Google Tag Manager -->
@@ -57,37 +67,6 @@
 
 
 
-
-    <script>
-
-        window.addEventListener("load", function () {
-            const form = document.getElementById('my-form');
-            form.addEventListener("submit", function (e) {
-                e.preventDefault();
-                const data = new FormData(form);
-                const action = e.target.action;
-
-                fetch(action, {
-                    method: 'POST',
-                    body: data,
-                })
-                    .then(() => {
-                        alert("Tus datos fueron enviados");
-                        // Limpia el formulario después de un envío exitoso
-                        form.reset();
-
-                        // Redirige a una nueva página HTML después de un envío exitoso
-                        window.location.href = 'gracias.html'; // Reemplaza 'nueva_pagina.html' con la URL de tu página destino.
-                    })
-            });
-        });
-
-
-
-    </script>
-
-
-
     <style>
         body {
             scroll-behavior: smooth !important;
@@ -111,6 +90,12 @@
 </head>
 
 <body id="pagina" class="detalle editar cursor-auto" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
+	
+	
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSN5XDK4"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 
     <!-- Google Tag Manager (noscript) -->
@@ -125,7 +110,7 @@
         <!-- INICIO -->
         <style>
             .hero-image {
-                background-image: url("https://www.javer.com.mx/images/files/descargas/1701705924_caranday.jpg");
+                background-image: url("./img/hero-image.jpg");
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: cover;
@@ -290,13 +275,13 @@ Convert HEX to RGBA - http://hex2rgba.devoth.com/
                 font-size: 1rem;
             }
 
-            .recámaras,
+            .recamaras,
             .banos,
             .cocheras {
                 display: inline-block;
             }
 
-            .recámaras {
+            .recamaras {
                 padding-right: 10px;
             }
 
@@ -444,7 +429,7 @@ Convert HEX to RGBA - http://hex2rgba.devoth.com/
                         <div class="row pt-xs-5 pt-sm-5 pb-xs-5 pb-sm-5">
                             <div class="col-md-6 text-lg-start text-sm-center ">
 
-                                <img src="https://www.javer.com.mx/images/assets/1598485794_logo_javer_GOOD.png"
+                                <img src="img/logo-javer.png"
                                     class="logo mb-4 text-start">
 
                                 <h1 class="mb-4  text-white">Caranday</h1>
@@ -549,8 +534,7 @@ Convert HEX to RGBA - http://hex2rgba.devoth.com/
                                 <!-- DE TI -->
 
 
-                                <form method="POST" id="my-form"
-                                    action="https://script.google.com/macros/s/AKfycbxmfnATRjJ19alOzoMkLEu-OK1caCgwXI7j3YH4klY6GUiAqtdX2YH0FY_0RtWqyHnN7Q/exec">
+                                <form method="POST" id="my-form" action="https://script.google.com/macros/s/AKfycbxnUBU4D-Gy6qEpgGscrWnr4V3gHXTPm0rNpLH5r9Kwb6H9svO1kMzfQ6APa90PjQF5/exec">
 
                                     <div class="row m-auto formulario px-xs-5">
 
@@ -606,12 +590,19 @@ Convert HEX to RGBA - http://hex2rgba.devoth.com/
                                                     required="">
                                             </div>
                                         </div>
+										
                                         <div class="col-md-12 mb-2">
+											
                                             <div class="g-recaptcha"
-                                                data-sitekey="6Lcg2vQZAAAAAHpqmf6Pj_-t-doxKr1iwLWfQuWQ"></div><br>
-                                            <button type="submit" name="submit" class="btn btn-primary button">ENVIAR
-                                                MIS DATOS</button>
+                                                data-sitekey="6Lcg2vQZAAAAAHpqmf6Pj_-t-doxKr1iwLWfQuWQ"></div>
+											
+											<br>
+											
+                                            <button type="submit" name="submit" class="btn btn-primary button">
+												ENVIAR MIS DATOS
+											</button>
                                         </div>
+										
                                         <div class="col-md-12">
                                             <h6 style="margin-bottom: 15px;"><a
                                                     href="https://www.javer.com.mx/terminos-y-condiciones"
@@ -645,15 +636,15 @@ Convert HEX to RGBA - http://hex2rgba.devoth.com/
                             src="https://www.javer.com.mx/images/desarrollos/1698364363_Caranday-Logo-720x720px.png"
                             alt="">
                         <!-- <h2 class="subtitulos">Detalles del Desarrollo</h2> -->
-                        <p class="mb-5 " id="feature">Vive en el lugar más exclusivo del sur de la ciudad, zona Santa Mónica, con alta plusvalía. Caranday te ofrece amenidades que harán que tu familia viva en un entorno seguro.
+                        <p class="mb-5 " id="feature">Vive en el lugar más exclusivo del sur de la ciudad, zona Santa Mónica, con alta plusvalía. Caranday te ofrece espacios amplios y luminosos, con amenidades que harán que tu familia viva en un entorno seguro.
 <br><br>
-                           <strong>¡Descubre nuestros nuevos modelos!</strong> <br>Ubicados en 5 privadas exclusivas con casas inteligentes, cada una con amenidades únicas para socializar. Nuestras casas están certificadas como sustentables EDGE, que te permiten ahorrar hasta un 30% en agua y luz.
+                           <strong>¡Ahora descubre nuestra nueva gama residencial!</strong> <br>5 privadas exclusivas con casas inteligentes. Además de contar con amenidades únicas en cada privada y comunes para socializar.
                         </p>
                     </article>
                     <article id="videoBanner" class="col-md-8 offset-md-2 d-lg-none d-xl-none">
                         <video style="width:100%" autoplay="" loop="" muted="" playsinline="">
                             <source
-                                src="https://www.javer.com.mx/images/files/desarrollos/videos/1703185027_PORTADA%20CDY%201%20Y%202_.mp4"
+                                src="video/PORTADA-CDY-3.mp4"
                                 type="video/mp4">
                         </video>
 
@@ -662,7 +653,7 @@ Convert HEX to RGBA - http://hex2rgba.devoth.com/
 
                         <video style="width:100%" autoplay="" loop="" muted="" playsinline="">
                             <source
-                                src="https://www.javer.com.mx/images/files/desarrollos/videos/1703185027_PORTADA%20CDY%201%20Y%202_.mp4"
+                                src="video/PORTADA-CDY-3.mp4"
                                 type="video/mp4">
                         </video>
                     </article>
@@ -720,13 +711,13 @@ Convert HEX to RGBA - http://hex2rgba.devoth.com/
 
                                 <div class="position-absolute card-txt">
                                     <h3 class="ttl-proto mb-3">JAVER PREMIERE</h3>
-                                    <div class="recámaras">
+                                    <div class="recamaras">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="30" viewBox="0 0 664 535"
                                             version="1.1">
                                             <path
                                                 d="M 146.215 37.940 C 123.426 44.455, 107.348 60.640, 99.728 84.734 C 97.631 91.366, 97.582 93.055, 97.244 170.236 L 96.900 248.972 91.360 253.736 C 83.857 260.190, 77.681 268.632, 72.541 279.461 C 64.846 295.676, 65 293.322, 65 394.372 L 65 483.704 67.253 487.048 C 73.596 496.460, 87.602 496.786, 94.395 487.679 C 96.399 484.993, 96.514 483.516, 96.795 456.929 L 97.089 429 327 429 L 556.911 429 557.205 456.929 C 557.486 483.516, 557.601 484.993, 559.605 487.679 C 566.398 496.786, 580.404 496.460, 586.747 487.048 L 589 483.704 589 394.372 C 589 315.274, 588.811 304.093, 587.346 296.770 C 584.273 281.402, 576.322 267.077, 564.482 255.578 L 557.102 248.410 556.740 169.955 C 556.339 82.884, 556.679 87.442, 549.475 72.500 C 543.318 59.730, 532.512 48.936, 519.504 42.564 C 505.138 35.527, 518.984 35.992, 326.356 36.071 C 162.164 36.139, 152.151 36.242, 146.215 37.940 M 155.344 69.033 C 145.672 70.966, 137.506 77.540, 133.134 86.914 C 130.580 92.388, 130.521 93.007, 130.164 117.755 L 129.800 143.010 136.107 140.027 C 149.024 133.918, 149.747 133.870, 223.010 134.259 C 283.228 134.579, 290.066 134.780, 295.500 136.394 C 304.424 139.043, 314.072 144.469, 320.986 150.725 L 327.132 156.287 331.316 152.331 C 339.662 144.441, 348.067 139.521, 358.554 136.388 C 363.934 134.781, 370.830 134.579, 430.990 134.259 C 504.174 133.871, 504.989 133.924, 517.793 139.980 L 524 142.915 523.988 120.208 C 523.976 97.015, 523.289 91.322, 519.654 84.297 C 517.135 79.427, 511.117 74.011, 505 71.109 L 499.500 68.500 329.500 68.351 C 236 68.269, 157.630 68.576, 155.344 69.033 M 150.357 169.082 C 144.183 171.456, 136.618 177.868, 134.049 182.904 C 131.021 188.838, 130 197.262, 130 216.297 L 130 234.227 133.250 233.466 C 135.037 233.048, 175.762 232.530, 223.750 232.316 L 311 231.927 310.980 216.714 C 310.946 190.775, 308.499 181.928, 299.265 174.361 C 289.951 166.729, 292.817 166.994, 220.239 167.052 C 158.208 167.102, 155.285 167.187, 150.357 169.082 M 363.282 169.096 C 357.262 171.427, 350.079 177.964, 347.080 183.843 C 344.206 189.477, 343.043 198.889, 343.020 216.709 L 343 231.918 430.750 232.292 C 479.013 232.498, 519.737 233.019, 521.250 233.450 L 524 234.233 524 215.666 C 524 196.555, 523.080 189.124, 519.949 182.932 C 517.762 178.607, 511.615 172.901, 505.795 169.793 L 501.500 167.500 435 167.288 C 370.400 167.082, 368.351 167.133, 363.282 169.096 M 139.951 266.051 C 127.756 267.869, 116.986 273.656, 109.621 282.349 C 104.809 288.028, 102.817 291.553, 99.692 299.913 C 97.709 305.218, 97.585 307.808, 97.230 351.250 L 96.857 397 327 397 L 557.143 397 556.770 351.250 C 556.416 307.904, 556.287 305.208, 554.322 299.952 C 550.684 290.226, 547.854 285.649, 541.836 279.761 C 535.685 273.742, 530.186 270.470, 521 267.363 C 515.722 265.578, 508.019 265.497, 330.500 265.363 C 228.750 265.286, 143.003 265.596, 139.951 266.051"
                                                 stroke="none" fill="#fff" fill-rule="evenodd" />
-                                        </svg> <br> 3 recámaras
+                                        </svg> <br> 3 recamaras
                                     </div>
 
                                     <div class="banos">
@@ -751,7 +742,7 @@ Convert HEX to RGBA - http://hex2rgba.devoth.com/
                             </div> -->
                         <div class="row justify-content-center   pb-3  position-relative">
                             <div class="col-md-5 col-lg-5 card text-white shadow parent p-0">
-                                <img src="https://www.javer.com.mx/images/desarrollos/1605917205_Palermo1.jpg"
+                                <img src="img/palermo.jpg"
                                     class="card-img child" alt="...">
                                 <div class="card-img-overlay">
                                     <!-- <h5 class="card-title">JAVER PREMIERE 4</h5> -->
@@ -759,7 +750,7 @@ Convert HEX to RGBA - http://hex2rgba.devoth.com/
                                         <p class="fw-bolder  mb-2 child-txt" style="
     font-size: 1.1rem;
 ">PALERMO</p>
-                                        <div class="recámaras">
+                                        <div class="recamaras">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="30" viewBox="0 0 664 535"
                                                 version="1.1">
                                                 <path
@@ -792,7 +783,7 @@ Convert HEX to RGBA - http://hex2rgba.devoth.com/
                             </div>
                             <div class="col-md-2 col-lg-2" style="max-width: 10px; min-height: 40px;"></div>
                             <div class="col-md-5 col-lg-5 card text-white shadow parent p-0">
-                                <img src="https://www.javer.com.mx/images/desarrollos/1687992365_1685983331_PROTOTIPO-toscana-caranday-1000x750-web.webp"
+                                <img src="img/toscana.webp"
                                     class="card-img child" alt="...">
                                 <div class="card-img-overlay">
                                     <!-- <h5 class="card-title">JAVER PREMIERE 4</h5> -->
@@ -800,7 +791,7 @@ Convert HEX to RGBA - http://hex2rgba.devoth.com/
                                         <p class="fw-bolder  mb-2 child-txt" style="
     font-size: 1.1rem;
 ">TOSCANA</p>
-                                        <div class="recámaras">
+                                        <div class="recamaras">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="30" viewBox="0 0 664 535"
                                                 version="1.1">
                                                 <path
@@ -835,7 +826,7 @@ Convert HEX to RGBA - http://hex2rgba.devoth.com/
                         </div>
                         <div class="row justify-content-center   pb-3  position-relative">
                             <div class="col-md-5 col-lg-5 card text-white shadow parent p-0">
-                                <img src="https://www.javer.com.mx/images/desarrollos/1606748809_6.jpg"
+                                <img src="img/toscana-plus.jpg"
                                     class="card-img child" alt="...">
                                 <div class="card-img-overlay">
                                     <!-- <h5 class="card-title">JAVER PREMIERE 4</h5> -->
@@ -843,7 +834,7 @@ Convert HEX to RGBA - http://hex2rgba.devoth.com/
                                         <p class="fw-bolder  mb-2 child-txt" style="
     font-size: 1.1rem;
 ">TOSCANA PLUS</p>
-                                        <div class="recámaras">
+                                        <div class="recamaras">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="30" viewBox="0 0 664 535"
                                                 version="1.1">
                                                 <path
@@ -876,7 +867,7 @@ Convert HEX to RGBA - http://hex2rgba.devoth.com/
                             </div>
                             <div class="col-md-2 col-lg-2" style="max-width: 10px; min-height: 40px;"></div>
                             <div class="col-md-5 col-lg-5 card text-white shadow parent p-0">
-                                <img src="https://www.javer.com.mx/images/desarrollos/1703281513_Blanc-Fachadas-800x600px.jpg"
+                                <img src="img/blanc.jpg"
                                     class="card-img child" alt="...">
                                 <div class="card-img-overlay">
                                     <!-- <h5 class="card-title">JAVER PREMIERE 4</h5> -->
@@ -884,7 +875,7 @@ Convert HEX to RGBA - http://hex2rgba.devoth.com/
                                         <p class="fw-bolder  mb-2 child-txt" style="
     font-size: 1.1rem;
 ">BLANC</p>
-                                        <div class="recámaras">
+                                        <div class="recamaras">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="30" viewBox="0 0 664 535"
                                                 version="1.1">
                                                 <path
@@ -919,7 +910,7 @@ Convert HEX to RGBA - http://hex2rgba.devoth.com/
                         </div>
                         <div class="row justify-content-center   pb-3  position-relative">
                             <div class="col-md-5 col-lg-5 card text-white shadow parent p-0">
-                                <img src="https://www.javer.com.mx/images/desarrollos/1703200386_Platino-800x600px%20(1).jpg"
+                                <img src="img/PLATINO-edge.jpg"
                                     class="card-img child" alt="...">
                                 <div class="card-img-overlay">
                                     <!-- <h5 class="card-title">JAVER PREMIERE 4</h5> -->
@@ -927,7 +918,7 @@ Convert HEX to RGBA - http://hex2rgba.devoth.com/
                                         <p class="fw-bolder  mb-2 child-txt" style="
     font-size: 1.1rem;
 ">PLATINO</p>
-                                        <div class="recámaras">
+                                        <div class="recamaras">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="30" viewBox="0 0 664 535"
                                                 version="1.1">
                                                 <path
@@ -1104,11 +1095,37 @@ Convert HEX to RGBA - http://hex2rgba.devoth.com/
 
 
 
+ <script>
 
+        window.addEventListener("load", function () {
+            const form = document.getElementById('my-form');
+            form.addEventListener("submit", function (e) {
+                e.preventDefault();
+                const data = new FormData(form);
+                const action = e.target.action;
+
+                fetch(action, {
+                    method: 'POST',
+                    body: data,
+                })
+                    .then(() => {
+                        alert("Tus datos fueron enviados");
+                        // Limpia el formulario después de un envío exitoso
+                        form.reset();
+
+                        // Redirige a una nueva página HTML después de un envío exitoso
+                        window.location.href = 'gracias.html'; // Reemplaza 'nueva_pagina.html' con la URL de tu página destino.
+                    })
+            });
+        });
+
+
+
+    </script>
 
 
 
 
 </body>
 
-</html>
+<script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'},{'ap':'cpsh-oh'},{'server':'p3plzcpnl451918'},{'dcenter':'p3'},{'cp_id':'7546415'},{'cp_cache':''},{'cp_cl':'6'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='https://img1.wsimg.com/traffic-assets/js/tccl.min.js'></script></html>
